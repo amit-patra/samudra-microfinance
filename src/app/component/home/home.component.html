@@ -1,0 +1,40 @@
+<!-- <p>home works!</p> -->
+<div class='overlay'>
+    <marquee direction="right" scrollamount="15">
+        <h4 class="samudra-header">** Welcome To Samudra Microfinance **</h4>
+    </marquee>
+    <app-log-out></app-log-out>
+    <!-- <a href="new_customer_form.pdf" target="_blank">Click Here</a> -->
+    <!-- <a href="javascript:void(0);" onclick="javascipt:window.open('new_customer_form.pdf');" class="popup">Clic to open.</a> -->
+    <div class="home-panel">
+        <div class="row">
+            <div class="col-md-3">
+                <p class="text-center home-panel-text"> Click here to print new application form </p>
+                <div class="text-center home-panel-text">
+                    <button class="btn btn-outline-danger" (click)="printFile()"><i class="fa fa-print"></i> Print</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <p class="text-center home-panel-text"> Add Customer </p>
+                <div class="text-center home-panel-text">
+                    <button class="btn btn-outline-danger" routerLink="/add-customer" ><i class="fa fa-address-card-o"></i> Add</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <p class="text-center home-panel-text"> View Customer </p>
+                <div class="text-center home-panel-text">
+                    <button class="btn btn-outline-danger" routerLink="/view-customer"><i class="fa fa-eye"></i> View</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="padding-left-107">
+                        <p class="text-center home-panel-text"> Edit Or Delete Customer </p>
+                        <div class="text-center home-panel-text">
+                            <button class="btn btn-outline-danger" routerLink="/update-customer"><i class="fa fa-pencil-square-o"></i> Edit/Delete</button>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

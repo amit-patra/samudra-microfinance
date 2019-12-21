@@ -1,0 +1,27 @@
+.customer-list-label {
+    margin-top: 5px;
+    color: #921c1c;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.cente-position {
+    margin: auto;
+    padding-top: 15px;
+}
+
+.label {
+    font-weight: 600;
+    margin: 7px;
+}
+
+.not-found-label {
+    padding: 58px 0px 10px 192px;
+    color: darkgray;
+}
+
+.accout-label {
+    margin: 0px 121px 4px 5px;
+}
